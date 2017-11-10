@@ -1,0 +1,39 @@
+*{
+	margin:0px;
+	padding: 0px;
+	font-size: 12px;
+	font-family: "Microsoft YaHei";
+	font-weight: 600px;
+}
+
+#top{
+	height: 32px;
+	margin:0 auto;
+	background: #F2F2F2;
+}
+em{
+	text-align: center;
+	line-height: 32px;
+	font-style:normal;
+	margin-left: 42px;
+	color:#999;
+}
+#top a{
+	text-decoration: none;
+	margin-left: 14px;
+	color:#999;
+}
+#top a:hover{
+	color:#FF0036 !important;
+}
+#right{
+	float: right;
+	margin-right: 80px;
+}
+
+#right li{
+	float: left;
+	line-height: 32px;
+	list-style: none;
+	margin-left: 18px;
+}

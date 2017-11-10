@@ -1,0 +1,342 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+#content{
+	width:1000px;
+	height: 400px;
+	/*background:gold;*/
+	margin:0 auto;
+	margin-top: 50px;
+}
+li{
+	list-style: none;
+}
+/*==========================*/
+#contenttop{
+
+}
+#contenttop span{
+	display:inline-block;
+	width: 181px;
+	height:45px;
+	background:url(../imgAll/imgProductlist/1.png);
+}
+#contenttop form{
+	display:inline-block;
+	float:right;
+	padding:0px;
+	border:3px solid #FF4400;
+	margin-right:8px;
+}
+#contenttopleft{
+	display:inline-block;
+	background:#ccc;
+	padding:5px 15px;
+	font-size:14px;
+	background:#F5F5F5;
+	position: relative;
+}
+#contenttopleft a{
+	text-decoration: none;
+	color:black;
+	font-size:12px;
+	
+}
+#contenttopright{
+	display: inline-block;
+	position: relative;
+}
+#contenttopright input{
+	margin-left:-4px;
+	height: 30px;
+	outline:none;
+	padding:1px 0px;
+	border: 1px solid #FF4400;
+	border-left:1px solid #E5E5E5;
+}
+.display{
+	position:absolute;
+	/*background:navy;*/
+	top:30px;
+	left:0px;
+	width: 83px;
+}
+.display li{
+	height: 30px;	
+	line-height: 30px;
+	color:black;
+	background:white;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	vertical-align: top;
+	padding-left: 15px;
+}
+/*====================================*/
+
+/*===================================*/
+#contenttopright i{
+	position:absolute;
+	top:10px;
+	left: 0px;
+	color:#CCCCCC;
+	font-size:12px;
+}
+#search{
+	border:1px solid #999;
+	padding: 2px 25px 5px 25px;
+	font-size:18px;
+	margin-left:-4px;
+	background:#FF4400;
+	text-decoration: none;
+	color:white;
+	font-family:"Microsoft YaHei";
+	border:1px solid #FF4400;
+}
+/*=================================*/
+#productlist{
+	height:30px;
+	margin-top: 30px;
+	position: relative;
+}
+#productlist li{
+	float: left;
+	color:black;
+	padding-left:25px;
+}
+#productlist li:first-child a{
+	cursor:pointer;
+	color:#FF4400;
+}
+#productlist li a{
+	cursor:not-allowed;
+	color:black;
+	font-size:16px;
+	font-family:"Microsoft YaHei";
+	font-weight:bold;
+	text-decoration: none;
+	padding-right: 25px;
+	border-right:1px solid #FBF3F0;
+}
+.list i{
+	color:#FF4400;
+	font-style:normal;
+	font-weight:400;
+	font-size:13px;
+}
+#productlist span{
+	font-size:12px;
+	float: right;
+	margin-right:20px;
+	line-height: 20px;
+
+}
+#productlist em{
+	margin-left: 10px;
+	color:#FF4400;
+	font-style:normal;
+	font-weight:bolder;
+	font-size:14px;
+	margin-right:4px;
+}
+#productlist span a{
+	text-decoration:none;
+	display: inline-block;
+	padding: 2px 8px;
+	border:1px solid #999;
+	background:#AAAAAA;
+	color:white;
+	cursor:not-allowed;
+	letter-spacing: 5px;
+	border-radius: 4px;
+}
+#hrr{
+	position: absolute;
+	height:2px;
+	width: 128px;
+	left:0px;
+	top:34px;
+	background:#FF4400;
+}
+/*============================*/
+
+.productinfo{
+	margin-top: 20px;
+	padding-left:30px;
+}
+.quanxuan{
+	display: inline-block;
+	padding-right: 75px;
+}
+#product-new{
+	display: inline-block;
+	padding-right: 330px;
+}
+.product-price{
+	display: inline-block;
+	padding-right:85px;
+}
+.product-num{
+	display: inline-block;
+	padding-right:85px;
+}
+.product-dollar{
+	display: inline-block;
+	padding-right:85px;
+}
+.product-action{
+	display: inline-block;
+}
+/*============================*/
+#storename{
+	margin-top: 20px;
+	padding-left:30px;
+}
+/*=============================*/
+#eachproductlist{
+	width:990px;
+	height:121px;
+	margin-top:5px;
+	border: 1px solid #999;
+}
+.each-detail li{
+	list-style:none;
+	float:left;
+}
+.each-detail li>div{
+	height: 121px;
+}
+.picleft{
+	display: inline-block;
+}
+.picleft img{
+	margin-top:20px;
+}
+.picright{
+	width: 220px;
+	margin-left:5px;
+	height:121px;
+	display:inline-block;
+}
+.picright a{
+	text-decoration: none;
+	color:black;
+	display:inline-block;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.picright a:hover{
+	text-decoration:underline;
+	color:#FF4400;
+}
+/*====================*/
+#colorsize{
+	padding-top: 20px;
+	width:140px;
+	color:#9C9C9C;
+	/*background:green;*/
+	margin-left: 20px;
+}
+/*======================*/
+.dollar{
+	margin-left: 10px;
+}
+.dollar s{
+	display:block;
+	font-style:normal;
+	color:#9C9C9C;
+	padding-top:20px;
+}
+.dollar em{
+	font-style:normal;
+	color:#3C3C3C;
+	font-weight:bold;
+	display: block;
+}
+/*=========================*/
+.addjian{
+	margin-left: 20px;
+	width: 120px;
+	height:121px;
+	/*background:navy;*/
+}
+.addjian a{
+	margin-top: 30px;
+	display:inline-block;
+	width: 16px;
+	height:22px;
+	text-align: center;
+	border:1px solid #999;
+}
+/*======================*/
+.emdollar{
+	display: block;
+	padding-top: 20px;
+	color:#FF4400;
+	font-weight:bold;
+	font-size:16px;
+	font-style:normal;
+}
+/*===========================*/
+.last{
+	display: block;
+	margin-top: 20px;
+	margin-left: 60px;
+	color:black;
+	font-size: 12px;
+}
+/*======================*/
+#contentbottom{
+	width:990px;
+	height: 50px;
+	background:#E5E5E5;
+	margin-top:20px;
+}
+#bottomleft{
+	height: 50px;
+	float: left;
+	line-height: 50px;
+}
+#bottomleft a{
+	margin-right:20px;
+	color:black;
+	font-size:12px;
+	text-decoration: none;
+}
+#bottomleft a:hover{
+	text-decoration: underline;
+	color: #FF3500;
+}
+
+#bottomright{
+	float: right;
+	line-height: 50px;
+}
+#bottomright span{
+	font-size:12px;
+	margin-right: 20px;
+}
+#bottomright span i{
+	color:#F84200;
+	font-size:16px;
+	font-weight:bold;
+	font-style:normal;
+}
+#bottomright a{
+	padding: 10px 40px;
+	border:1px solid #999;
+	background:#B0B0B0;
+	text-decoration:none;
+	cursor:not-allowed;
+	color:white;
+	font-size:21px;
+	font-family:"Microsoft YaHei";
+	letter-spacing: 5px;
+}
+
+
+
+
+
+
+

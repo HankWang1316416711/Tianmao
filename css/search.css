@@ -1,0 +1,66 @@
+*{
+	margin:0px;
+	padding: 0px;
+	border:0px;
+}
+#search{
+	height: 130px;
+	margin-top: 20px;
+}
+#search img{
+	margin-left: 22px;
+	width: 240px;
+	height: 130px;
+	float: left;
+}
+#search_right{
+	height: 130px;
+	width: 625px;
+	float: left;
+	margin-left: 80px;
+	margin-top: 40px;
+}
+#search_right input{
+	width: 491px;
+	line-height: 32px;
+	border:2px solid #FF0036;
+	outline:none
+}
+#search_right button{
+	display: inline-block;
+	background: #FF0036;
+	width: 122px;
+	height: 36px;
+	margin-left: -4px;
+	color:white;
+	font-size: 1.3em;
+	font-style:Arial;
+	position: relative;
+	top:3px;
+	left:0px;
+	border:0px solid transparent;
+	outline:none
+}
+#search_right ul{
+	margin-top: 8px;
+	margin-left: -14px;
+}
+#search_right li{
+	float: left;
+	margin-left: 12px;
+	list-style: none;
+	border-right:1px solid #999;
+	padding-right: 10px;
+
+}
+#search_right li:last-child{
+	border: 0 none;
+}
+#search_right li a{
+	text-decoration: none;
+	color: #999;
+}
+#search_right li a:hover{
+	color:#FF0036;
+	font-style:"Microsoft YaHei";
+}

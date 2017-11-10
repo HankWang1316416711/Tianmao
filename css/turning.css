@@ -1,0 +1,175 @@
+*{
+	margin:0px;
+	padding: 0px;	
+}
+#main-nav{
+	background: #FF0036;
+	height: 36px;
+	width: 100%;
+	padding-left: 245px;
+	margin-top: 20px;
+}
+#main-nav a{
+	text-decoration: none;
+	color: white;
+	margin:0px 15px;
+	display: inline-block;
+	font-size: 16px;
+	font-family:"Microsoft YaHei";
+	margin-left: 12px;
+	text-align: center;
+	/*background: gold;*/
+}
+#main-nav img{
+	width: 90px;
+	height: 36px;
+}
+/*--------------------------*/
+#main-nav #hover-pic{
+	position: absolute;
+	/*background: gold;*/
+	height: 15px;
+	width: 40px;
+	z-index: 100;
+	top:11px;
+	/*display: none;*/
+}
+
+#main-nav a:hover div#hover-pic{
+	background:url("../img/head.png");
+}
+
+
+
+
+/*--------------------------*/
+#main-content{
+	/*background: #333;*/
+}
+
+
+
+/*--------------------------*/
+#categoryList{
+	margin-left:50px;
+	float: left;
+}
+
+#categoryMenu #text{
+	position: absolute;
+	top:20px;
+	left:20px;
+	margin-left: 25px;
+}
+#eachCategory{
+	height:31.19px;
+	width: 200px;
+	background:#E1E2E2;
+	line-height: 31.19px;
+}
+#eachCategory a{
+	margin-left: -10px;
+	outline: none;
+	text-decoration: none;
+	font-style:normal;
+	font-family:"Microsoft YaHei";
+	font-style:14px;
+}
+#eachCategory a:hover{
+	color:#E54077;
+}
+#eachCategory span{
+	margin-right: 10px;
+	padding: 10px;
+}
+/*-------------------------*/
+.productsAsideCategorys{
+	position: absolute;
+	left:250px;
+	top:56px;
+	height: 499px;
+	/*background:aqua;*/
+	width: 810px;
+	padding-top: 15px;
+	margin-left: -1px;
+	z-index: 1000;
+	background: white;
+}
+
+#categoryLeft{
+	margin:10px 25px;
+	float: left;
+	clear: both;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+	font-style:normal;
+}
+.row{
+    display: inline-block;
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    border-bottom-color: #e7e7e7;
+    width: 500px;
+    float: left;
+    padding-left: 10px;
+    margin-top: 10px;
+    text-align: left;	
+}
+#seperator{
+	height: 10px;
+	width: 100%;
+	/*background:red;*/
+}
+.row a{
+	text-decoration: none;
+	margin-right:10px;
+	white-space: nowrap;
+	margin-bottom: 5px;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+	font-style:normal;
+
+}
+.show1 a:hover{
+	color:#E54077;
+}
+/*------imgLogo-----------*/
+#productsLogo{
+	display: block;
+	/*background:red;*/
+	margin-left: 60px;
+	height: 499px;
+	width: 200px;
+	position: absolute;
+	left:550px;
+	padding: 5px 10px;
+}
+#productsLogo img{
+	width:90px;
+	height: 45px;
+	margin-right: -3px;
+	margin-bottom: 1px;
+	border:1px solid white;
+}
+#productsLogo a:hover img{
+	border-color:#E6EEEE;
+}
+#productsLogo a:last-child img{
+	width: 180px;
+	height: 90px;
+	margin-top: 10px;
+}
+
+/*--------------------------*/
+/*   现在是来设置轮播的一些css属性*/
+.container{
+	height: 500px;
+	width: 1000px;
+	/*margin-left: -15px;*/
+}
+
+
+
+
+
+

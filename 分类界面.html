@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf8">
+	<link rel="stylesheet" href="./css/different.css">
+	<script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
+	<link rel="stylesheet" href="./bootstrap-3.3.7/css/bootstrap.css">
+	<script type="text/javascript" src="./bootstrap-3.3.7/js/bootstrap.js"></script>
+	<script type="text/javascript" src="./js/different.js"></script>
+	<title></title>
+</head>
+<body>
+	<div id="titleNav">
+		<a href="#" class="contentA">
+			综合
+			<i class="glyphicon glyphicon-arrow-down"></i>
+		</a>		
+		<a href="#" class="contentA">
+			人气
+			<i class="glyphicon glyphicon-arrow-down"></i>
+		</a>		
+		<a href="#" class="contentA">
+			新品
+			<i class="glyphicon glyphicon-arrow-down"></i>
+		</a>		
+		<a href="#" class="contentA">
+			销量
+			<i class="glyphicon glyphicon-arrow-down"></i>
+		</a>		
+		<a href="#" class="contentA">
+			价格
+			<i class="glyphicon glyphicon-triangle-top" id="sptop"></i>
+			<i class="glyphicon glyphicon-triangle-bottom" id="spbottom"></i>
+		</a>		
+
+		<div id="address">
+			<s>收货地:</s>
+			<b>天津</b>
+			<div id="addressAll" style="display:none;">
+				<p>选择收货城市</p>
+				<ul>
+					<li><a href="">北京</a></li>
+					<li><a href="">上海</a></li>
+					<li><a href="">四川</a></li>
+					<li><a href="">河南</a></li>
+					<li><a href="">河北</a></li>
+					<li><a href="">西南</a></li>
+					<li><a href="">广东</a></li>
+					<li><a href="">福建</a></li>
+					<li><a href="">重庆</a></li>
+					<li><a href="">天津</a></li>
+					<li><a href="">新疆</a></li>
+					<li><a href="">江苏</a></li>
+					<li><a href="">杭州</a></li>
+					<li><a href="">深圳</a></li>
+					<li><a href="">南宁</a></li>
+					<li><a href="">普定</a></li>
+					<li><a href="">汕头</a></li>
+					<li><a href="">惠州</a></li>
+					<li><a href="">成都</a></li>
+					<li><a href="">信阳</a></li>
+					<li><a href="">郑州</a></li>
+					<li><a href="">武汉</a></li>
+					<li><a href="">香港</a></li>
+					<li><a href="">白城</a></li>
+					<li><a href="">云南</a></li>
+					<li><a href="">大理</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="price">
+			<div class="pricecontent">
+				<input type="text" value="" placeholder="￥请输入最大值" size="5">
+				<input type="text" value="" placeholder="￥请输入最小值" size="5">
+			</div>
+			<div class="pricebutton" style="display:none;">
+				<input type="button" value="清空" size="5">
+				<input type="button" value="确定" style="color:white; background: #AD0808">
+			</div>
+		</div>
+		<div id="cheaper" >
+			<label for="a"><input type="checkbox" id="a">包邮</label>
+			<label for="b"><input type="checkbox" id="b">折扣</label>
+			<label for="c"><input type="checkbox" id="c">搭配减价</label>
+			<a href="">收起<i class="glyphicon glyphicon-triangle-top"></i></a>
+		</div>
+		<a href="#" class="pic">
+			<i class="glyphicon glyphicon-picture"></i>
+			店铺
+		</a>	
+		<a href="#" class="pic" style="color:#FF0036">
+			<i class="glyphicon glyphicon-th-list"></i>
+			大图
+		</a>	
+		<a href="#" class="pic">
+			<i class="glyphicon glyphicon-th"></i>
+			小图
+		</a>
+	</div>
+	<div id="content">
+		<div id="border">
+			<div id="eachcloth">
+				<img src="./imgAll/different/2.jpg" alt="" >
+				<!-- <img src="./imgAll/different/1.jpg" alt=""> -->
+				<div class="smallerpic">
+					<span><img src="./imgAll/different/1.jpg" alt=""></span>
+					<span><img src="./imgAll/different/2.jpg" alt=""></span>
+				</div>
+				<div class="picprice">
+					<em><i>￥</i>188.00</em>
+				</div>
+				<div class="describeone">
+					<a href="">韩都衣舍韩版显瘦宽松牛仔裤</a>
+				</div>
+				<div class="describetwo">
+					<a href="">韩都衣舍旗舰店</a>
+				</div>
+				<div id="imgbottom">
+					<span>月成交&nbsp;<i>537笔</i></span>
+					<span>评价&nbsp;<a href="">8247</a></span>
+					<img src="./imgAll/different/com.png" alt="">
+				</div>
+			</div>
+		</div>		
+		<div id="border">
+			<div id="eachcloth">
+				<img src="./imgAll/different/2.jpg" alt="" >
+				<!-- <img src="./imgAll/different/1.jpg" alt=""> -->
+				<div class="smallerpic">
+					<span><img src="./imgAll/different/1.jpg" alt=""></span>
+					<span><img src="./imgAll/different/2.jpg" alt=""></span>
+				</div>
+				<div class="picprice">
+					<em><i>￥</i>188.00</em>
+				</div>
+				<div class="describeone">
+					<a href="">韩都衣舍韩版显瘦宽松牛仔裤</a>
+				</div>
+				<div class="describetwo">
+					<a href="">韩都衣舍旗舰店</a>
+				</div>
+				<div id="imgbottom">
+					<span>月成交&nbsp;<i>537笔</i></span>
+					<span>评价&nbsp;<a href="">8247</a></span>
+					<img src="./imgAll/different/com.png" alt="">
+				</div>
+			</div>
+		</div>		
+		<div id="border">
+			<div id="eachcloth">
+				<img src="./imgAll/different/1.jpg" alt="" >
+				<!-- <img src="./imgAll/different/1.jpg" alt=""> -->
+				<div class="smallerpic">
+					<span><img src="./imgAll/different/1.jpg" alt=""></span>
+					<span><img src="./imgAll/different/2.jpg" alt=""></span>
+				</div>
+				<div class="picprice">
+					<em><i>￥</i>188.00</em>
+				</div>
+				<div class="describeone">
+					<a href="">韩都衣舍韩版显瘦宽松牛仔裤</a>
+				</div>
+				<div class="describetwo">
+					<a href="">韩都衣舍旗舰店</a>
+				</div>
+				<div id="imgbottom">
+					<span>月成交&nbsp;<i>537笔</i></span>
+					<span>评价&nbsp;<a href="">8247</a></span>
+					<img src="./imgAll/different/com.png" alt="">
+				</div>
+			</div>
+		</div>		
+		<div id="border">
+			<div id="eachcloth">
+				<img src="./imgAll/different/2.jpg" alt="" >
+				<!-- <img src="./imgAll/different/1.jpg" alt=""> -->
+				<div class="smallerpic">
+					<span><img src="./imgAll/different/1.jpg" alt=""></span>
+					<span><img src="./imgAll/different/2.jpg" alt=""></span>
+				</div>
+				<div class="picprice">
+					<em><i>￥</i>188.00</em>
+				</div>
+				<div class="describeone">
+					<a href="">韩都衣舍韩版显瘦宽松牛仔裤</a>
+				</div>
+				<div class="describetwo">
+					<a href="">韩都衣舍旗舰店</a>
+				</div>
+				<div id="imgbottom">
+					<span>月成交&nbsp;<i>537笔</i></span>
+					<span>评价&nbsp;<a href="">8247</a></span>
+					<img src="./imgAll/different/com.png" alt="">
+				</div>
+			</div>
+		</div>		
+		<div id="border">
+			<div id="eachcloth">
+				<img src="./imgAll/different/1.jpg" alt="" >
+				<!-- <img src="./imgAll/different/1.jpg" alt=""> -->
+				<div class="smallerpic">
+					<span><img src="./imgAll/different/1.jpg" alt=""></span>
+					<span><img src="./imgAll/different/2.jpg" alt=""></span>
+				</div>
+				<div class="picprice">
+					<em><i>￥</i>188.00</em>
+				</div>
+				<div class="describeone">
+					<a href="">韩都衣舍韩版显瘦宽松牛仔裤</a>
+				</div>
+				<div class="describetwo">
+					<a href="">韩都衣舍旗舰店</a>
+				</div>
+				<div id="imgbottom">
+					<span>月成交&nbsp;<i>537笔</i></span>
+					<span>评价&nbsp;<a href="">8247</a></span>
+					<img src="./imgAll/different/com.png" alt="">
+				</div>
+			</div>
+		</div>
+		<div id="border">
+			<div id="eachcloth">
+				<img src="./imgAll/different/1.jpg" alt="" >
+				<!-- <img src="./imgAll/different/1.jpg" alt=""> -->
+				<div class="smallerpic">
+					<span><img src="./imgAll/different/1.jpg" alt=""></span>
+					<span><img src="./imgAll/different/2.jpg" alt=""></span>
+				</div>
+				<div class="picprice">
+					<em><i>￥</i>188.00</em>
+				</div>
+				<div class="describeone">
+					<a href="">韩都衣舍韩版显瘦宽松牛仔裤</a>
+				</div>
+				<div class="describetwo">
+					<a href="">韩都衣舍旗舰店</a>
+				</div>
+				<div id="imgbottom">
+					<span>月成交&nbsp;<i>537笔</i></span>
+					<span>评价&nbsp;<a href="">8247</a></span>
+					<img src="./imgAll/different/com.png" alt="">
+				</div>
+			</div>
+		</div>
+		<div id="border">
+			<div id="eachcloth">
+				<img src="./imgAll/different/2.jpg" alt="" >
+				<!-- <img src="./imgAll/different/1.jpg" alt=""> -->
+				<div class="smallerpic">
+					<span><img src="./imgAll/different/1.jpg" alt=""></span>
+					<span><img src="./imgAll/different/2.jpg" alt=""></span>
+				</div>
+				<div class="picprice">
+					<em><i>￥</i>188.00</em>
+				</div>
+				<div class="describeone">
+					<a href="">韩都衣舍韩版显瘦宽松牛仔裤</a>
+				</div>
+				<div class="describetwo">
+					<a href="">韩都衣舍旗舰店</a>
+				</div>
+				<div id="imgbottom">
+					<span>月成交&nbsp;<i>537笔</i></span>
+					<span>评价&nbsp;<a href="">8247</a></span>
+					<img src="./imgAll/different/com.png" alt="">
+				</div>
+			</div>
+		</div>
+		<div id="border">
+			<div id="eachcloth">
+				<img src="./imgAll/different/2.jpg" alt="" >
+				<!-- <img src="./imgAll/different/1.jpg" alt=""> -->
+				<div class="smallerpic">
+					<span><img src="./imgAll/different/1.jpg" alt=""></span>
+					<span><img src="./imgAll/different/2.jpg" alt=""></span>
+				</div>
+				<div class="picprice">
+					<em><i>￥</i>188.00</em>
+				</div>
+				<div class="describeone">
+					<a href="">韩都衣舍韩版显瘦宽松牛仔裤</a>
+				</div>
+				<div class="describetwo">
+					<a href="">韩都衣舍旗舰店</a>
+				</div>
+				<div id="imgbottom">
+					<span>月成交&nbsp;<i>537笔</i></span>
+					<span>评价&nbsp;<a href="">8247</a></span>
+					<img src="./imgAll/different/com.png" alt="">
+				</div>
+			</div>
+		</div>		
+		<div id="border">
+			<div id="eachcloth">
+				<img src="./imgAll/different/1.jpg" alt="" >
+				<!-- <img src="./imgAll/different/1.jpg" alt=""> -->
+				<div class="smallerpic">
+					<span><img src="./imgAll/different/1.jpg" alt=""></span>
+					<span><img src="./imgAll/different/2.jpg" alt=""></span>
+				</div>
+				<div class="picprice">
+					<em><i>￥</i>188.00</em>
+				</div>
+				<div class="describeone">
+					<a href="">韩都衣舍韩版显瘦宽松牛仔裤</a>
+				</div>
+				<div class="describetwo">
+					<a href="">韩都衣舍旗舰店</a>
+				</div>
+				<div id="imgbottom">
+					<span>月成交&nbsp;<i>537笔</i></span>
+					<span>评价&nbsp;<a href="">8247</a></span>
+					<img src="./imgAll/different/com.png" alt="">
+				</div>
+			</div>
+		</div>		
+		<div id="border">
+			<div id="eachcloth">
+				<img src="./imgAll/different/2.jpg" alt="" >
+				<!-- <img src="./imgAll/different/1.jpg" alt=""> -->
+				<div class="smallerpic">
+					<span><img src="./imgAll/different/1.jpg" alt=""></span>
+					<span><img src="./imgAll/different/2.jpg" alt=""></span>
+				</div>
+				<div class="picprice">
+					<em><i>￥</i>188.00</em>
+				</div>
+				<div class="describeone">
+					<a href="">韩都衣舍韩版显瘦宽松牛仔裤</a>
+				</div>
+				<div class="describetwo">
+					<a href="">韩都衣舍旗舰店</a>
+				</div>
+				<div id="imgbottom">
+					<span>月成交&nbsp;<i>537笔</i></span>
+					<span>评价&nbsp;<a href="">8247</a></span>
+					<img src="./imgAll/different/com.png" alt="">
+				</div>
+			</div>
+		</div>		
+		<div id="border">
+			<div id="eachcloth">
+				<img src="./imgAll/different/1.jpg" alt="" >
+				<!-- <img src="./imgAll/different/1.jpg" alt=""> -->
+				<div class="smallerpic">
+					<span><img src="./imgAll/different/1.jpg" alt=""></span>
+					<span><img src="./imgAll/different/2.jpg" alt=""></span>
+				</div>
+				<div class="picprice">
+					<em><i>￥</i>188.00</em>
+				</div>
+				<div class="describeone">
+					<a href="">韩都衣舍韩版显瘦宽松牛仔裤</a>
+				</div>
+				<div class="describetwo">
+					<a href="">韩都衣舍旗舰店</a>
+				</div>
+				<div id="imgbottom">
+					<span>月成交&nbsp;<i>537笔</i></span>
+					<span>评价&nbsp;<a href="">8247</a></span>
+					<img src="./imgAll/different/com.png" alt="">
+				</div>
+			</div>
+		</div>		
+		<div id="border">
+			<div id="eachcloth">
+				<img src="./imgAll/different/2.jpg" alt="" >
+				<!-- <img src="./imgAll/different/1.jpg" alt=""> -->
+				<div class="smallerpic">
+					<span><img src="./imgAll/different/1.jpg" alt=""></span>
+					<span><img src="./imgAll/different/2.jpg" alt=""></span>
+				</div>
+				<div class="picprice">
+					<em><i>￥</i>188.00</em>
+				</div>
+				<div class="describeone">
+					<a href="">韩都衣舍韩版显瘦宽松牛仔裤</a>
+				</div>
+				<div class="describetwo">
+					<a href="">韩都衣舍旗舰店</a>
+				</div>
+				<div id="imgbottom">
+					<span>月成交&nbsp;<i>537笔</i></span>
+					<span>评价&nbsp;<a href="">8247</a></span>
+					<img src="./imgAll/different/com.png" alt="">
+				</div>
+			</div>
+		</div>		
+		<div id="border">
+			<div id="eachcloth">
+				<img src="./imgAll/different/1.jpg" alt="" >
+				<!-- <img src="./imgAll/different/1.jpg" alt=""> -->
+				<div class="smallerpic">
+					<span><img src="./imgAll/different/1.jpg" alt=""></span>
+					<span><img src="./imgAll/different/2.jpg" alt=""></span>
+				</div>
+				<div class="picprice">
+					<em><i>￥</i>188.00</em>
+				</div>
+				<div class="describeone">
+					<a href="">韩都衣舍韩版显瘦宽松牛仔裤</a>
+				</div>
+				<div class="describetwo">
+					<a href="">韩都衣舍旗舰店</a>
+				</div>
+				<div id="imgbottom">
+					<span>月成交&nbsp;<i>537笔</i></span>
+					<span>评价&nbsp;<a href="">8247</a></span>
+					<img src="./imgAll/different/com.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

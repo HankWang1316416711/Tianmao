@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf8">
+	<link rel="stylesheet" href="./js/jquery-3.2.1.min.js">
+	<link rel="stylesheet" href="./bootstrap-3.3.7/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./css/orderlist.css">
+	<script type="text/javascript" src="./bootstrap-3.3.7/js/bootstrap.js"></script>
+	<script type="text/javascript" src=""></script>
+	<title></title>
+</head>
+<body>
+	<div id="content">
+		<div id="contenttop">
+			<div id="topleft">
+				<a href="">所有订单</a>
+				<span>|</span>
+				<a href="">待付款</a>
+				<span>|</span>
+				<a href="">待发货</a>
+				<span>|</span>
+				<a href="">待收货</a>
+				<span>|</span>
+				<a href="">待评价</a>
+				<span>|</span>
+				<a href="" id="small">分阶段</a>
+				<div></div>
+			</div>
+			<a href="" id="delete">
+				<i class="glyphicon glyphicon-trash"></i>
+				&nbsp;
+				<span>订单回收站</span>
+			</a>
+		</div>
+		<div id="inputbutton">
+			<form action="#">
+				<input type="text" placeholder="请输入商品标题或是订单号进行搜索">
+				<button>订单搜索</button>
+				<span>&nbsp;&nbsp;更多筛选条件 <i class="glyphicon glyphicon-menu-down" style="font-size:12px;"></i></span>
+			</form>
+		</div>
+		<div id="pricenumaction">
+			<div id="baby">宝贝</div>	
+			<div id="price">单价</div>
+			<div id="num">数量</div>
+			<div id="action">商品操作</div>
+			<div id="dollar">实付款</div>
+			<div id="status">交易状态</div>
+			<div id="detailaction">交易操作</div>
+		</div>
+		<div id="prenext">
+			<a href="">上一页</a>
+			<a href="">下一页</a>
+		</div>
+		<div id="eachlist">
+			<div id="titlename">
+				<i class="glyphicon glyphicon-time"></i>
+				<em>2017-07-25</em>
+				<span>订单号:33554871313546</span>
+				<img src="./imgAll/imgOrderlist/1.png" alt="" style="width:16px;height:16px;">
+				<a href="">okpay话费...</a>
+				<img src="./imgAll/imgOrderlist/4.png" alt="" style="margin-left:120px;">
+				<i class="glyphicon glyphicon-trash" style="margin-left: 320px;font-size:16px;color:#999999;"></i>
+			</div>
+			<div id="titlecontent">
+				<ul>
+					<li style="padding-left: 20px;">
+						<img src="./imgAll/imgOrderlist/3.jpg" alt="">
+					</li>
+					<li style="width: 230px;">
+						<p>广东移动 手机 话费充值 50元 快充直充 自动充值 即时到账</p>
+						<img src="./imgAll/imgOrderlist/2.png" alt="">
+					</li>
+					<li style="width:120px;margin-left: 10px;">
+						<em style="font-style:normal;">￥49.90</em>
+					</li>
+					<li style="width: 100px; ">
+						1
+					</li>
+					<li style="width:70px;">
+						<span style="font-size:12px;">申请售后</span>
+					</li>
+					<li id="dollarpay" style="width: 100px;text-align: center;">
+						<em style="font-style:normal;font-weight:bold;">￥49.9.</em>
+						<span style="font-size:12px;">(自动充值)</span>
+						<img src="./imgAll/imgOrderlist/5.png" alt="">
+					</li>
+					<li id="detailstatus">
+						<span style="font-size:12px;">交易成功</span>
+						<span ><a href="">订单详情</a></span>
+					</li>
+					<li id="add">
+						<span><a href="">追加评论</a></span>
+						<span><a href="">再次购买</a></span>
+					</li>
+				</ul>
+			</div>
+		</div>		
+		<div id="eachlist">
+			<div id="titlename">
+				<i class="glyphicon glyphicon-time"></i>
+				<em>2017-07-25</em>
+				<span>订单号:33554871313546</span>
+				<img src="./imgAll/imgOrderlist/1.png" alt="" style="width:16px;height:16px;">
+				<a href="">okpay话费...</a>
+				<img src="./imgAll/imgOrderlist/4.png" alt="" style="margin-left:120px;">
+				<i class="glyphicon glyphicon-trash" style="margin-left: 320px;font-size:16px;color:#999999;"></i>
+			</div>
+			<div id="titlecontent">
+				<ul>
+					<li style="padding-left: 20px;">
+						<img src="./imgAll/imgOrderlist/3.jpg" alt="">
+					</li>
+					<li style="width: 230px;">
+						<p>广东移动 手机 话费充值 50元 快充直充 自动充值 即时到账</p>
+						<img src="./imgAll/imgOrderlist/2.png" alt="">
+					</li>
+					<li style="width:120px;margin-left: 10px;">
+						<em style="font-style:normal;">￥49.90</em>
+					</li>
+					<li style="width: 100px; ">
+						1
+					</li>
+					<li style="width:70px;">
+						<span style="font-size:12px;">申请售后</span>
+					</li>
+					<li id="dollarpay" style="width: 100px;text-align: center;">
+						<em style="font-style:normal;font-weight:bold;">￥49.9.</em>
+						<span style="font-size:12px;">(自动充值)</span>
+						<img src="./imgAll/imgOrderlist/5.png" alt="">
+					</li>
+					<li id="detailstatus">
+						<span style="font-size:12px;">交易成功</span>
+						<span ><a href="">订单详情</a></span>
+					</li>
+					<li id="add">
+						<span><a href="">追加评论</a></span>
+						<span><a href="">再次购买</a></span>
+					</li>
+				</ul>
+			</div>
+		</div>		
+		<div id="eachlist">
+			<div id="titlename">
+				<i class="glyphicon glyphicon-time"></i>
+				<em>2017-07-25</em>
+				<span>订单号:33554871313546</span>
+				<img src="./imgAll/imgOrderlist/1.png" alt="" style="width:16px;height:16px;">
+				<a href="">okpay话费...</a>
+				<img src="./imgAll/imgOrderlist/4.png" alt="" style="margin-left:120px;">
+				<i class="glyphicon glyphicon-trash" style="margin-left: 320px;font-size:16px;color:#999999;"></i>
+			</div>
+			<div id="titlecontent">
+				<ul>
+					<li style="padding-left: 20px;">
+						<img src="./imgAll/imgOrderlist/3.jpg" alt="">
+					</li>
+					<li style="width: 230px;">
+						<p>广东移动 手机 话费充值 50元 快充直充 自动充值 即时到账</p>
+						<img src="./imgAll/imgOrderlist/2.png" alt="">
+					</li>
+					<li style="width:120px;margin-left: 10px;">
+						<em style="font-style:normal;">￥49.90</em>
+					</li>
+					<li style="width: 100px; ">
+						1
+					</li>
+					<li style="width:70px;">
+						<span style="font-size:12px;">申请售后</span>
+					</li>
+					<li id="dollarpay" style="width: 100px;text-align: center;">
+						<em style="font-style:normal;font-weight:bold;">￥49.9.</em>
+						<span style="font-size:12px;">(自动充值)</span>
+						<img src="./imgAll/imgOrderlist/5.png" alt="">
+					</li>
+					<li id="detailstatus">
+						<span style="font-size:12px;">交易成功</span>
+						<span ><a href="">订单详情</a></span>
+					</li>
+					<li id="add">
+						<span><a href="">追加评论</a></span>
+						<span><a href="">再次购买</a></span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

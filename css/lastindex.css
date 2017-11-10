@@ -1,0 +1,379 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-size:14px;
+	font-style:normal;
+	font-family:"Microsoft YaHei";
+
+}
+#content{
+	width:990px;
+	height: 500px;
+	/*background:gold;*/
+	margin:0 auto;
+	margin-top:50px;
+}
+/*==========================*/
+.sureinfo{
+	font-size:16px;
+	margin-bottom:30px;
+}
+/*==========================*/
+#nav{
+	height:24px;
+	width:100%;
+	text-align:center;
+}
+#goods{
+	float:left;
+	width: 255px;
+	font-size:12px;
+	margin-bottom:25px;
+	border-bottom:2px solid #B2D1FF;
+}
+#attr{
+	float:left;
+	width:180px;
+	font-size:12px;
+	margin-bottom:25px;
+	margin-left:1px;
+	border-bottom:2px solid #B2D1FF;
+}
+#price{
+	float:left;
+	width:120px;
+	font-size:12px;
+	margin-bottom:25px;
+	margin-left:1px;
+	border-bottom:2px solid #B2D1FF;
+}
+#num{
+	float:left;
+	width:120px;
+	font-size:12px;
+	margin-bottom:25px;
+	margin-left:1px;
+	border-bottom:2px solid #B2D1FF;
+}
+#pay{
+	float:left;
+	width:180px;
+	margin-bottom:25px;
+	margin-left:1px;
+	font-size:12px;
+	border-bottom:2px solid #B2D1FF;
+}
+#total{
+	float:left;
+	width: 130px;
+	margin-bottom:25px;
+	margin-left:1px;
+	font-size:12px;
+	border-bottom:2px solid #B2D1FF;
+}
+/*=================================*/
+
+#product{
+
+}
+#product img{
+	width:16px;
+	height:16px;
+}
+#product span{
+	font-size:12px;
+}
+#product span a{
+	color:black;
+	font-size:12px;
+	text-decoration: none;	
+}
+#product a:hover{
+	color:#FF123C;
+}
+/*========================*/
+
+#productcontent{
+	border-top:1px dotted #80B2FF;
+	border-bottom:1px dotted #80B2FF;
+}
+#ulli{
+	background:#FBFCFF;
+	font-size:12px;
+	color:#9D9D9E;
+}
+#ulli div{
+	display:inline-block;
+}
+.imgone{
+	padding:10px 10px 15px 10px;
+}
+.imgone img{
+	width: 50px;
+	height:50px;
+}
+.atwo{
+	width:185px;
+}
+#sn{
+	color:#666666;
+	font-size:12px;
+	text-decoration:none;
+}
+.colorthree{
+	width:180px;
+	color:#636365;
+}
+.colorthree span{
+	font-size:13px;
+	display:block;
+}
+.pricefour{
+	width: 120px;
+	background:green;
+	position: relative;
+}
+.pricefour em{
+	position:absolute;
+	left:30px;
+	top:-30px;
+}
+.numfive{
+	width:120px;
+	position:relative;
+	background:green;
+}
+.numfive em{
+	position:absolute;
+	left:40px;
+	top:-30px;
+}
+.barginsix{
+	width:180px;
+	position: relative;
+}
+.barginsix span{
+	position:absolute;
+	left:30px;
+	top:-30px;
+	font-size:12px;
+	color:#666666;
+}
+.barginsix img{
+	position: absolute;
+	left:116px;
+	top:-28px;
+	width: 14px;
+	height:14px;
+}
+.allseven{
+	width:113px;
+	color:#FF0036; 
+	background:green;
+	position: relative;
+	background:green;
+}
+.allseven em{
+	position: absolute;
+	left:50px;
+	top:-30px;
+}
+/*========================*/
+#liuyan{
+}
+#left{
+	background:#F2F7FF;
+	width:425px;
+	height:82px;
+	padding-left:10px;
+	padding-top:10px;
+	border-top:1px solid white;
+	border-right:1px solid white;
+	border-bottom:1px solid white;
+	float:left;
+}
+#left textarea{
+	resize:none;
+	position:relative;
+	left:0px;
+	top:4px;
+	font-size: 12px;
+	outline:none;
+}
+#left span{
+	font-size:12px;
+}
+/*=====================*/
+#right{
+	float:left;
+}
+#righttop{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-size:12px;
+	background:green;
+	width:565px;
+	background:#F2F7FF;
+	height:40px;
+	padding-left:40px;
+	border-top:1px solid white;
+	border-bottom:1px solid white;
+}
+#righttop span{
+	font-size:12px;
+}
+#righttop em{
+	font-size:12px;
+}
+#righttop i{
+	padding-left: 300px;
+	color:#FF0036;
+	font-weight:bold;
+	font-size:12px;
+}
+#rightdown{
+	height:41px;
+	width: 565px;
+	background:#F2F7FF;
+	padding-bottom: 10px;
+	padding-top:10px;
+	font-size: 12px;
+}
+#rightdown span{
+	font-size: 12px;
+	padding-left: 45px;
+}
+#rightdown em{
+	font-size:12px;
+	padding-right:70px;
+}
+#rightdown i{
+	padding-left: 92px;
+	color:#FF0036;
+	font-weight:bold;
+	font-size:12px;
+}
+/*===================*/
+#totalamount{
+	clear: both;
+	width: 990px;
+	height:45px;
+	background:#F2F7FF;
+	position: relative;
+	left:0px;
+	line-height: 45px;
+	/*padding-right:3px;*/
+}
+#totalamount span{
+	position:absolute;
+	right:10px;
+	top:2px;
+	font-size:12px;
+}
+#totalamount span i{
+	color:#FF0036;
+	font-size:16px;
+	font-weight:bold;
+}
+/*============================*/
+#pos{
+	height:40px;
+	width: 990px;
+	line-height: 40px;
+	border-bottom:1px dotted #DDDDDD;
+}
+#buy{
+	width:990px;
+	color:#666666;
+	font-size:10px;
+	font-family:Arial;
+	padding-left:810px;
+}
+/*===========================*/
+#bargin{
+	width: 990px;
+	height: 40px;
+	line-height:40px;
+	padding-left:790px;
+	font-size:12px;
+	border-bottom:1px dotted #DDDDDD;
+}
+#bargin span{
+	padding-left:15px;
+}
+#bargin label{
+	font-size:12px;
+	color:#666666;
+}
+/*========================*/
+#address{
+	margin-top:15px;
+	width:430px;
+	height:125px;
+	float:right;
+	border:1px solid #FF0036;
+}
+#address span{
+	color:black;
+	font-weight:bold;
+	font-size:14px;
+	line-height: 60px;
+	padding-left:250px;
+}
+#address span i{
+	color:#999999;
+	font-size:26px;
+	font-weight:200;
+}
+#address span em{
+	color:#FF0036;
+	font-size:26px;
+}
+#address p{
+	font-size:14px;
+	color:black;
+	font-weight:bold;
+	padding-left: 30px;
+}
+#address p i{
+	font-size:12px;
+	color:#666666;
+}
+#address #pp{
+	margin-top:-10px;
+	padding-left:240px;
+}
+/*========================*/
+#button{
+	clear:both;
+	float: right;
+	/*width:180px;*/
+	height:40px;
+	line-height: 40px;
+	/*background:green;*/
+}
+#button a{
+	text-decoration: none;
+	padding-right:50px;
+}
+#button a:hover{
+	color:#FF0036;
+}
+#button button{
+	outline:none;
+	padding:0px 65px;
+	background:#FF0036;
+	border:0px;
+	font-size:14px;
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+

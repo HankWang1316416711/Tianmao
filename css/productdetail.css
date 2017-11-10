@@ -1,0 +1,252 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+#content{
+	width: 800px;
+	margin:0px auto;
+	height:10000px;
+	/*background:gold;*/
+	margin-top: 30px;
+}
+#productdetail{
+	width: 800px;
+	height:330px;
+	border:1px solid #DFDFDF;
+}
+#detailtitle{
+	height:50px;
+	width: 100%;
+	line-height:50px;
+	font-size:12px;
+	font-style:normal;
+	position: relative;
+	font-family:"Microsoft YaHei";
+	border-bottom:1px solid #DFDFDF;
+}
+#detailtitle a{
+	text-decoration: none;
+	color:black;
+	padding:15px 19px 16px 19px;
+}
+#detailtitle a:first-child{
+	color:#FF0036;
+	border-right:1px solid #CFBFB1;
+}
+#detailtitle a:last-child span{
+	padding-right: 20px;
+	border-right:1px dotted #999;
+}
+.shuxian em{
+	font-style:normal;
+	color:#3355AA;
+}
+/*============================*/
+/*美人尖的制作以及上划线的制作*/
+.line{
+	width: 88px;
+	height:2px;
+	background:#FF0036;
+	position: absolute;
+	left:-1px;
+	top:-1px;
+}
+.meirenjian{
+	display:block;
+	height:1px;
+	width:1px;
+	position: absolute;
+	top:0px;
+	margin-left:37px;
+	border:6px solid black;
+	border-color:red transparent transparent transparent;
+}
+
+/*============================*/
+#para{
+	padding:20px 0px 0px 20px;
+	font-size:12px;
+	color:#666666;
+	font-family:"Microsoft YaHei";
+}
+#para a{
+	text-decoration: none;
+	outline:none;
+}
+
+.nameone{
+	margin-left:5px;
+	color:#3355AA;
+	cursor:pointer;
+}
+.nametwo{
+	display:inline-block;
+	width: 80px;
+	margin-left: 10px;
+	border:0 none;
+	border-radius:100px;
+	background:#FF0036;
+	color:#FEFEFE;
+	padding:3px 0px;
+	text-align: center;
+	text-decoration: none;
+}
+.nametwo:hover{
+	color:white;
+}
+.productpara{
+	margin-top: 20px;
+	font-size:14px;
+	font-weight:bold;
+	color:#999999;
+	font-family:"Microsoft YaHei";
+}
+.detailpara{
+	padding-bottom:185px;
+	/*background:gold;*/
+}
+.detailpara li{
+	display:inline-block;
+	float:left;
+	list-style:none;
+	width:230px;
+	margin-top: 15px;
+}
+
+/*====================================*/
+#productimg{
+	clear: both;
+	margin-top:50px;
+}
+#productimg p{
+	font-weight:bold;
+	opacity:0.9;
+	color: black;
+	font-size:14px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+	font-family:"Microsoft YaHei";
+}
+#productimg img{
+	width: 800px;
+	height:970px;
+}
+/*========================*/
+.infoone{
+	width: 800px;
+	color:#404040;
+	font-size:24px;
+	font-family:"Microsoft YaHei";
+	margin:0px 20px;
+	margin-top: 50px;
+	text-align: center;
+}
+.infotwo{
+	display:block;
+	text-align: center;
+	color:#828282;
+	font-size:12px;
+	width:800px;
+	font-family:"Microsoft YaHei";
+	margin-top: 15px;
+}
+/*============================*/
+.otherscolor{
+	margin-top: 30px;
+}
+.otherscolor span{
+	display:block;
+	font-size:14px;
+	font-weight:bold;
+	color:black;
+	padding-bottom:20px;
+	font-family:"Microsoft YaHei";
+}
+.otherscolor img{
+	width: 240px;
+	height:240px;
+}
+#xiao{
+	margin-left: 18px;
+}
+.describe{
+	display:block;
+	width: 760px;
+	height: 30px;
+	line-height: 30px;
+	color:#3355AA;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.describe a{
+	margin-right: 120px;
+	margin-left: 115px;
+}
+.describe a:last-child{
+	margin-right: 65px;
+}
+.hight{
+	margin-top: 30px;
+}
+.hight img{
+	width: 800px;
+	height:100%;
+}
+.hight span{
+	color:black;
+	font-size:16px;
+}
+.tishi img{
+	width: 790px;
+	height:166.1px;
+}
+/*=========================*/
+#wash{
+	width: 800px;
+	height: 400px
+	background:pink;
+	z-index: 10;
+	float: left;
+	border:1px solid #999;
+	padding:20px 0px 0px 40px;
+}
+#washleft{
+	color:#ACACAC;
+	font-size:12px;
+	float: left;
+	width: 330px;
+	margin-top: 15px;
+	font-family:"Microsoft YaHei";
+}
+#washleftdown{
+	margin-top: 20px;
+}
+/*========================*/
+#washright td{
+	height: 60px;
+	padding-left: 20px;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	color:#8E8E8E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

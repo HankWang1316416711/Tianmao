@@ -1,0 +1,97 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family:"Microsoft YaHei";
+	font-style:normal;
+}
+#container{
+	height: 670px;
+	background: #F5F5F5;
+	margin-top: 30px;
+	padding:30px 35px;
+}
+#content{
+	height: 500px;
+	margin-left: 50px;
+}
+#eachContent{
+	height:470px;
+	width: 230px;
+	background:white;
+	margin-right: 10px;
+	float: left;
+}
+#title{
+	height: 40px;
+	width: 230px;
+	line-height: 40px;
+	text-align: center;
+	background: #FF0036;
+}
+#title span{
+	font-size: 18px;
+	font-weight: bold;
+	color:white;
+}
+#eachContent a{
+	text-decoration: none;
+	outline: none;
+	color: black;
+}
+#top{
+	height: 30px;
+	width: 230px;
+	font-size: 21px;
+	text-align: center;
+}
+#middle{
+	height: 20px;
+	width: 230px;
+	font-size: 14px;
+	color:#BCBCBC;
+	text-align: center;
+}
+#bottom{
+	width: 230px;
+	height:165px;
+}
+#bottom #pos{
+	margin:10px 45px;
+	border:0 none;
+	height:145px;
+	width: 145px;
+	border-radius:70px;
+	position: absolute;
+	background:#F7F7F7;
+}
+#bottom img{
+	width: 145px;
+	height: 145px;
+	top:5px;
+	left:45px; 
+	position: relative;
+}
+#hrhr{
+	width: 160px;
+	height: 2px;
+	margin:0 auto;
+	background:#F5F5F5;
+}
+#bottom:hover img{
+	width: 150px;
+	height: 150px;
+}
+#down{
+	height: 100px;
+	margin-left:50px;
+	margin-top: -25px;
+}
+
+#down img{
+	width: 1190px;
+	height: 100px;	
+	margin: 0 auto;
+}
+
+
+

@@ -1,0 +1,18 @@
+1.精灵图的使用？
+     通过Bootstrap的class解决的
+2.
+  ①在border中的设置，当设置为border：1px solid transparent时这个transparent属性体会的还不是很深刻
+  ②在等一下我们outline：none 可以去掉标签的那个啥
+3.我把天猫上公共界面都写出来，我在想如何来整合这些界面到其他的界面上去？
+
+4.data-spm-anchor-id 
+
+6.出现了不可以改变背景颜色的情况
+
+
+
+9.在图片的轮播中使用bootstrap中的一个属性制作，其实自己还不是了解这些属性，自己是直接使用img标签，但是没有办法实现图片的repeat-X延展，所以效果不是太好。	
+
+10.text-align:center;是不是对于行内元素没有效果？？？
+
+
